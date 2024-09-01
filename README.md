@@ -39,7 +39,7 @@ Os dados utilizados neste projeto foram obtidos a partir do portal de [Dados Abe
    source .venv/bin/activate  # No Windows, use .venv\Scripts\activate
    ```
   
-```
+
 3. Instale as dependencias:
    ```sh
    pip install pandas sqlalchemy psycopg2-binary chardet python-dotenv
