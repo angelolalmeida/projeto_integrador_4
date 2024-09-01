@@ -2,7 +2,8 @@
 
 Este projeto prático faz parte da disciplina de Projeto Integrador do curso de Ciência de Dados e Engenharia da Computação da Univesp. O objetivo é tratar e enviar dados de um arquivo CSV para um banco de dados PostgreSQL utilizando as bibliotecas Pandas e SQLAlchemy.
 
-## Fontes dos Dados:
+## Fontes dos Dados
+
 Os dados utilizados neste projeto foram obtidos a partir do portal de [Dados Abertos CNPJ](https://dadosabertos.rfb.gov.br/CNPJ/dados_abertos_cnpj/2024-08/).
 
 ## Estrutura do Projeto
@@ -28,24 +29,27 @@ Os dados utilizados neste projeto foram obtidos a partir do portal de [Dados Abe
 ## Instalação
 
 1. Clone o repositório:
+
    ```sh
    gh repo clone angelolalmeida/projeto_integrador_4
    cd projeto_integrador_4
-  ```
+   ```
 
 2. Crie o ambiente virtual e ative:
-   ```sh   
+
+   ```sh
    python -m venv .venv
    source .venv/bin/activate  # No Windows, use .venv\Scripts\activate
    ```
   
-
 3. Instale as dependencias:
+
    ```sh
    pip install pandas sqlalchemy psycopg2-binary chardet python-dotenv
    ```
   
 4. Crie um arquivo .env na raiz do projeto com as seguintes variáveis (configure de acordo com o seu banco de dados):
+
    ```python
    DB_USER=usuario
    DB_PASSWORD=senha
