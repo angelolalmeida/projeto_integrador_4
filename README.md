@@ -29,8 +29,8 @@ Os dados utilizados neste projeto foram obtidos a partir do portal de [Dados Abe
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   gh repo clone angelolalmeida/projeto_integrador_4
+   cd projeto_integrador_4
   ```
 
 2. Crie o ambiente virtual e ative:
